@@ -1,0 +1,23 @@
+/**
+ * Positioning
+ */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**
+ * Typography
+ */
+.text-center {
+  text-align: center;
+}
+
+.text-blue {
+  color: $c-blue-200;
+}
+
+.text-red {
+  color: $c-red;
+}

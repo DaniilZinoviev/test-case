@@ -1,0 +1,11 @@
+.button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 10px;
+  background: $c-white;
+  border: 1px solid $c-gray-900;
+  cursor: pointer;
+  &:hover {
+    background: darken($c-white, 5%);
+  }
+}

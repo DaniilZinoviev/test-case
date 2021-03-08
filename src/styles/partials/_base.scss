@@ -1,0 +1,19 @@
+ul {
+  margin: 0;
+  padding-left: 10px;
+  li {
+    margin-bottom: 5px;
+  }
+  a {
+    color: $c-green;
+    &:hover {
+      color: darken($c-green, 10%);
+    }
+  }
+}
+
+input {
+  padding: 5px 10px;
+  border: 1px solid $c-gray-200;
+  margin: 0 10px;
+}
